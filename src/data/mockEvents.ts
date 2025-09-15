@@ -5,7 +5,9 @@ import edayPoster from '@/assets/events/eday.jpg';
 import dasaraPoster from '@/assets/events/dasara.jpg';
 import deepavaliPoster from '@/assets/events/deepavali.jpg';
 import christmasPoster from '@/assets/events/christmas.jpg';
-import newyearPoster from '@/assets/events/newyear.jpg'; // <-- add this image
+import newyearPoster from '@/assets/events/newyear.jpg';
+import pongalPoster from '@/assets/events/pongal.jpg';      // <-- new
+import ugadiPoster from '@/assets/events/ugadi.jpg';        // <-- new
 
 export const mockEvents: Event[] = [
   {
@@ -82,5 +84,35 @@ export const mockEvents: Event[] = [
     imageUrl: newyearPoster,
     requirements: ['RSVP required', 'Party attire encouraged'],
     tags: ['New Year', 'Festival', 'Celebration']
+  },
+  {
+    id: '6',
+    title: 'Pongal Celebration 2026',
+    description: 'Celebrate the harvest festival of Pongal with traditional music, dance, and sweet Pongal distribution.',
+    date: '2026-01-14',
+    time: '09:00 AM - 02:00 PM',
+    location: 'College Grounds',
+    category: 'Festival',
+    maxParticipants: 450,
+    currentParticipants: 180,
+    organizer: 'Cultural Committee',
+    imageUrl: pongalPoster,
+    requirements: ['Traditional attire encouraged', 'Open to all'],
+    tags: ['Pongal', 'Harvest Festival', 'Cultural', 'Tradition']
+  },
+  {
+    id: '7',
+    title: 'Ugadi Utsav 2026',
+    description: 'Join us for Ugadi Utsav with traditional rituals, cultural events, and festive delicacies marking the New Year.',
+    date: '2026-03-30',
+    time: '10:00 AM - 03:00 PM',
+    location: 'Cultural Hall',
+    category: 'Festival',
+    maxParticipants: 400,
+    currentParticipants: 160,
+    organizer: 'Cultural Club',
+    imageUrl: ugadiPoster,
+    requirements: ['Pre-registration required'],
+    tags: ['Ugadi', 'New Year', 'Festival', 'Cultural']
   }
 ];
